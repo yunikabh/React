@@ -1,0 +1,25 @@
+header{
+    background-color: red;
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+}
+footer{
+    background-color: green;
+
+}
+nav ul{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    color:white;
+
+}
+ 
+nav a{
+    hover::after{
+        color:red;
+    }
+}
